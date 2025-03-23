@@ -29,10 +29,10 @@ try:
     sign_in__checkout_target_button.click()
     
     target_username = target_driver.find_element(By.ID, "username")
-    target_username.send_keys("Enter username")
+    target_username.send_keys("Gach56@hotmail.com")
     
     target_username = target_driver.find_element(By.ID, "password")
-    target_username.send_keys("Enter password")
+    target_username.send_keys("Waterh56$")
     
     view_and_checkout_target_button = target_driver.find_element(By.XPATH, '//button[@class="styles_ndsBaseButton__W8Gl7 styles_lg___H2IL styles_lgGap__bPB7P styles_fullWidth__3XX6f styles_ndsButtonPrimary__tqtKH sc-609faf1c-4 gwYVYs"]')
     view_and_checkout_target_button.click()
@@ -41,7 +41,7 @@ try:
     target_place_order_button.click()
     
     target_username = target_driver.find_element(By.ID, "enter-cvv")
-    target_username.send_keys("CVV")
+    target_username.send_keys("645")
     target_place_order_button = target_driver.find_element(By.XPATH, '//button[@class="styles_ndsBaseButton__W8Gl7 styles_md__X_r95 styles_mdGap__9J0yq styles_fullWidth__3XX6f styles_ndsButton__XOOOH styles_md__Yc3tr styles_filleddefault__7QnWt h-margin-t-default"]')
     target_place_order_button.click()
     
